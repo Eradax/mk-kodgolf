@@ -1,0 +1,8 @@
+uuid: a2d17a94-b778-41d0-a4cc-bfc3751190bd
+author: Klara Bragesjö Björkén
+source: Mattekollo 2025
+license: cc by-sa
+type: scoring
+grading:
+  show_test_data_groups: true
+validation: custom

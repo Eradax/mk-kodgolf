@@ -1,0 +1,17 @@
+\problemname{Elefanten och Kamelen}
+Varje år tävlar en kamel och en elefant i löpning.
+För att hålla resultatet hemligt fram till den högtidliga prisceremonin springer de dock vid olika tillfällen
+I år råkade båda djurens totaltider raderas ur datasystemet, men som tur är finns tiderna mellan varje checkpoint längs löpbanan nedskrivna – dock i oordning.
+Lyckligtvis har volontärer som var på plats under loppet koll på vilken tid som tillhör vilket djur, och kan hjälpa dig att räkna ut deras totaltider.
+
+\section*{Indata}
+Du börjar med att läsa in ett heltal $N$ ($1 \leq N \leq 10^5$), det totala antalet checkpoints på banan.
+Därefter följer, på varsin rad (elefantens kommer alltid först), de index som anger var i listan respektive djurs tider finns.
+Notera att tiderna är sorterade efter checkpoint, men inte nödvändigtvis inom varje checkpoint.
+Sedan följer själva tiderna($1 \leq t_i \leq 10^9$) i sekunder för de olika delsträckorna.
+
+\section*{Utdata}
+När du har räknat ut djurens totaltider ska du först skriva ut vilket djur som vann.
+Skriv \verb|Kamel| om det var kamelen, och \verb|Elefant| om det var elefanten.
+Slutligen ska du skriva ut segermarginalen på formatet \verb|HH:MM:SS|.
+Det är givet att det alltid finns en entydig vinnare.

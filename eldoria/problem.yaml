@@ -1,0 +1,7 @@
+uuid: 23cd3bcf-ab9f-4fd7-94d2-b215a5b70c5f
+author: Erik Adebahr
+source: Mattekollos kodgolf 2025
+license: cc by-sa
+type: scoring
+grading:
+  show_test_data_groups: true
